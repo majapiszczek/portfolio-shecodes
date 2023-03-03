@@ -20,7 +20,8 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  text-transform: uppercase;
+  font-size: 56px;
   margin: 0;
   line-height: 64px;
 }
@@ -35,15 +36,49 @@ h4 {
   margin: 0;
 }
 
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: overline;
+}
+
 img {
   width: 360px;
   border-radius: 18px;
   border: 2px dotted var(--secondary-color);
 }
 
-.main {
-  background-color: var(--main-color);
+ul {
+  padding: 0;
+}
 
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li img {
+  width: 60px;
+  border: none;
+  margin: 10px;
+}
+
+section {
+  border: 1px dotted var(--secondary-color);
+}
+
+section.pink {
+  background-color: var(--main-color);
+}
+
+section.light {
+  background-color: var(--third-color);
+}
+
+.main {
   display: flex;
   justify-content: space-around;
 }
@@ -56,6 +91,10 @@ img {
 
 .about {
   padding: 0 130px;
+}
+
+.about-paragraph {
+  margin-bottom: 70px;
 }
 
 .intro {
