@@ -1,10 +1,15 @@
 :root {
   --main-color: #f2bdcd;
   --secondary-color: #e53e7b;
+  --third-color: #f9f7f5;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 120px;
 }
 
 h1 {
@@ -38,9 +43,19 @@ img {
 
 .main {
   background-color: var(--main-color);
-  padding: 120px;
+
   display: flex;
   justify-content: space-around;
+}
+
+.about-page {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--third-color);
+}
+
+.about {
+  padding: 0 130px;
 }
 
 .intro {
