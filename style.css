@@ -1,3 +1,48 @@
+:root {
+  --main-color: #f2bdcd;
+  --secondary-color: #e53e7b;
+}
+
 body {
-  background-color: plum;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 76px;
+  text-transform: uppercase;
+  margin: 0 0 60px;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 0;
+  line-height: 64px;
+}
+
+h3 {
+  font-size: 34px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 34px;
+  margin: 0;
+}
+
+img {
+  width: 360px;
+  border-radius: 18px;
+  border: 2px dotted var(--secondary-color);
+}
+
+.main {
+  background-color: var(--main-color);
+  padding: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro {
+  margin: 70px;
 }
