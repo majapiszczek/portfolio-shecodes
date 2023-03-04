@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5ab50df154.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +19,23 @@
     <title>Maja Piszczek | Front-end developer</title>
   </head>
   <body>
-    <section class="main pink">
+    <header>
+      <ul>
+        <li>
+          <a href="#home">home</a>
+        </li>
+        <li>
+          <a href="#about">about</a>
+        </li>
+        <li>
+          <a href="#projects">projects</a>
+        </li>
+        <li>
+          <a href="#contact">contact</a>
+        </li>
+      </ul>
+    </header>
+    <section class="main pink" id="home">
       <div class="intro">
         <h3>Hi! I'm</h3>
         <h1>maja piszczek.</h1>
@@ -26,9 +46,9 @@
         <img src="/images/img.jpeg" alt="Maja Piszczek" />
       </div>
     </section>
-    <section class="about-page light">
+    <section class="about-page light" id="about">
       <div>
-        <img src="/images/img.jpeg" alt="Maja Piszczek" />
+        <img src="/images/img-2.jpeg" alt="Maja Piszczek" />
       </div>
       <div class="about">
         <div class="about-paragraph">
@@ -77,18 +97,80 @@
         </h6>
       </div>
     </section>
-    <section class="projects pink">
+    <section class="projects-page pink" id="projects">
       <h2>projects</h2>
       <div class="projects">
         <div>
-          <h3>dictionary</h3>
+          <h3>
+            <a href="https://storied-mermaid-1da81c.netlify.app" target="_blank"
+              >dictionary</a
+            >
+          </h3>
           <p>
             Dictionary coded with React.js on SheCodes workshop. You can search
             for any english word you want!
           </p>
         </div>
+        <div>
+          <h3>
+            <a href="https://glowing-kashata-610a5c.netlify.app" target="_blank"
+              >weather app</a
+            >
+          </h3>
+          <p>
+            Weather App coded with React.js on SheCodes workshop. Check the
+            weather for the next five days, anywhere you would like.
+          </p>
+        </div>
+        <div>
+          <h3>
+            <a
+              href="https://statuesque-pothos-3c76ea.netlify.app"
+              target="_blank"
+              >drum kit</a
+            >
+          </h3>
+          <p>
+            Drum Kit coded with vanilla JavaScript on challenge by Wes Bos. Play
+            drum now.. On your keyboard!
+          </p>
+        </div>
+      </div>
+      <div class="github">
+        <i class="fa-brands fa-github"></i>
+        <span
+          ><a href="https://github.com/majapiszczek" target="_blank"
+            >My code is open-sourced on GitHub!</a
+          ></span
+        >
       </div>
     </section>
-    <section class="contact light"></section>
+    <section class="contact light" id="contact">
+      <div class="contact-info">
+        <h2>contact</h2>
+        <h3>Let's get in touch!</h3>
+      </div>
+      <div class="contact-links">
+        <ul>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:piszczekmaja33@gamil.com"
+              >piszczekmaja33@gmail.com</a
+            >
+          </li>
+
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/majapiszczek/" target="_blank">
+              majapiszczek</a
+            >
+          </li>
+          <li><i class="fa-solid fa-phone"></i> +48 509 439 001</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>Designed and coded by Maja Piszczek.</p>
+    </footer>
   </body>
 </html>
