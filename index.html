@@ -23,41 +23,49 @@
     <title>Maja Piszczek | Front-end developer</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li>
-          <a href="#home">home</a>
+    <!-- NAVBAR -->
+
+    <header class="header">
+      <ul class="header-list">
+        <li class="header-item">
+          <a href="#home" class="link">home</a>
         </li>
-        <li>
-          <a href="#about">about</a>
+        <li class="header-item">
+          <a href="#about" class="link">about</a>
         </li>
-        <li>
-          <a href="#projects">projects</a>
+        <li class="header-item">
+          <a href="#projects" class="link">projects</a>
         </li>
-        <li>
-          <a href="#contact">contact</a>
+        <li class="header-item">
+          <a href="#contact" class="link">contact</a>
         </li>
       </ul>
     </header>
-    <section class="main pink" id="home">
-      <div class="intro">
-        <h3>Hi! I'm</h3>
-        <h1>maja piszczek.</h1>
-        <h2>Junior front-end developer,</h2>
-        <h4>based in Gdańsk, Poland.</h4>
+
+    <!-- HERO -->
+
+    <section class="hero pink flex" id="home">
+      <div class="hero-intro">
+        <h3 class="intro1">Hi! I'm</h3>
+        <h1 class="intro2">maja piszczek.</h1>
+        <h2 class="intro3">Junior front-end developer,</h2>
+        <h4 class="intro4">based in Gdańsk, Poland.</h4>
       </div>
       <div>
-        <img src="/images/img.jpeg" alt="Maja Piszczek" class="main-img" />
+        <img src="/images/img.jpeg" alt="Maja Piszczek" class="img hero-img" />
       </div>
     </section>
-    <section class="about-page light" id="about">
+
+    <!-- ABOUT -->
+
+    <section class="about-page light flex" id="about">
       <div>
-        <img src="/images/img2.JPG" alt="Maja Piszczek" class="about-img" />
+        <img src="/images/img2.JPG" alt="Maja Piszczek" class="img" />
       </div>
       <div class="about">
         <div class="about-paragraph">
-          <h2>about me</h2>
-          <p>
+          <h2 class="title">about me</h2>
+          <p class="paragraph">
             Hi! I'm a girl who is excited to learn new things. Recently felt for
             web development and coding in general. Now it's one of my main
             hobbies next to pole dancing and cuddling my dog. Currently still
@@ -66,149 +74,197 @@
           </p>
         </div>
         <h5>Tools and technologies I'm currently using:</h5>
-        <ul>
-          <li>
-            <img src="/images/html-logo.png" alt="HTML" />
+        <ul class="logo-list">
+          <li class="logo-list-item">
+            <img src="/images/html-logo.png" alt="HTML" class="logo" />
           </li>
-          <li>
-            <img src="/images/css-logo.png" alt="CSS" />
+          <li class="logo-list-item">
+            <img src="/images/css-logo.png" alt="CSS" class="logo" />
           </li>
-          <li>
-            <img src="/images/javascript-logo.png" alt="JavaScript" />
+          <li class="logo-list-item">
+            <img
+              src="/images/javascript-logo.png"
+              alt="JavaScript"
+              class="logo"
+            />
           </li>
-          <li>
-            <img src="/images/react-logo.png" alt="React.js" />
+          <li class="logo-list-item">
+            <img src="/images/react-logo.png" alt="React.js" class="logo" />
           </li>
-          <li>
-            <img src="/images/bootstrap-logo.png" alt="Bootstrap" />
+          <li class="logo-list-item">
+            <img
+              src="/images/bootstrap-logo.png"
+              alt="Bootstrap"
+              class="logo"
+            />
           </li>
-          <li>
-            <img src="/images/vscode-logo.png" alt="VSCode" />
+          <li class="logo-list-item">
+            <img src="/images/vscode-logo.png" alt="VSCode" class="logo" />
           </li>
-          <li>
-            <img src="/images/git-logo.png" alt="Git" />
+          <li class="logo-list-item">
+            <img src="/images/git-logo.png" alt="Git" class="logo" />
           </li>
-          <li>
-            <img src="/images/npm-logo.png" alt="NPM" />
+          <li class="logo-list-item">
+            <img src="/images/npm-logo.png" alt="NPM" class="logo" />
+          </li>
+          <li class="logo-list-item">
+            <img src="/images/sass-logo.png" alt="Sass" class="logo" />
+          </li>
+          <li class="logo-list-item">
+            <img
+              src="/images/typescript-logo.png"
+              alt="Typescript"
+              class="logo"
+            />
           </li>
         </ul>
 
         <h6>
-          <a href="front-end-resume.pdf" target="_blank" title="resume"
+          <a
+            href="frontend-resume-piszczek.pdf"
+            target="_blank"
+            title="resume"
+            class="link resume"
             >Check out my resume!</a
           >
         </h6>
       </div>
     </section>
-    <section class="projects-page pink" id="projects">
-      <h2>projects</h2>
-      <div class="projects">
-        <div>
-          <h3>
-            <a
-              href="https://beoplayheadphones.netlify.app/#"
-              target="_blank"
-              title="headphones shocase"
-              >headphones showcase</a
-            >
-          </h3>
-          <p>
-            Take a look at this offer. Headphones showcase for the online store.
-            <br />
-            Coded with HTML, CSS, Vanilla JavaScript.
-          </p>
-        </div>
-        <div>
-          <h3>
-            <a
-              href="https://checkouttheweather.netlify.app"
-              target="_blank"
-              title="weather app"
-              >weather app</a
-            >
-          </h3>
-          <p>
-            Check out the weather in your city.
-            <br />
-            Coded with React.js, CSS, API.
-          </p>
-        </div>
-        <div>
-          <h3>
-            <a
-              href="https://construction-co-page.netlify.app"
-              target="_blank"
-              title="landing page"
-              >landing page</a
-            >
-          </h3>
-          <p>
-            See everything about Construction Co.. Landing page for a company.
-            <br />
-            Coded with HTML, CSS, Bootstrap.
-          </p>
-        </div>
-        <div>
-          <h3>
-            <a
-              href="https://friendsquizgame.netlify.app"
-              target="_blank"
-              title="quiz game"
-              >quiz game</a
-            >
-          </h3>
-          <p>
-            Let's see if you know everything about Friends TV Show. A quiz game
-            for the fans.
-            <br />
-            Coded with React.js, CSS.
-          </p>
-        </div>
-      </div>
-      <div class="github">
-        <i class="fa-brands fa-github"></i>
-        <span
-          ><a
-            href="https://github.com/majapiszczek"
-            target="_blank"
-            title="Github Maja Piszczek"
-            >My code is open-sourced on GitHub!</a
-          ></span
-        >
-      </div>
-    </section>
-    <section class="contact light" id="contact">
-      <div class="contact-info">
-        <h2>contact</h2>
-        <h3>Let's get in touch!</h3>
-      </div>
-      <div class="contact-links">
-        <ul>
-          <li>
-            <i class="fa-solid fa-envelope"></i>
-            <a
-              href="mailto:piszczekmaja33@gamil.com"
-              title="email Maja Piszczek"
-              >piszczekmaja33@gmail.com</a
-            >
-          </li>
 
-          <li>
-            <i class="fa-brands fa-linkedin"></i>
-            <a
-              href="https://www.linkedin.com/in/majapiszczek/"
+    <!-- PROJECTS -->
+
+    <section class="projects-page pink" id="projects">
+      <div>
+        <h2 class="title">projects</h2>
+        <div class="projects flex">
+          <div class="project">
+            <h3>
+              <a
+                href="https://beoplayheadphones.netlify.app/#"
+                target="_blank"
+                title="headphones shocase"
+                class="link"
+                >headphones showcase</a
+              >
+            </h3>
+            <p class="paragraph">
+              Take a look at this offer. Headphones showcase for the online
+              store.
+              <br />
+              Coded with HTML, CSS, Vanilla JavaScript.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              <a
+                href="https://checkouttheweather.netlify.app"
+                target="_blank"
+                title="weather app"
+                class="link"
+                >weather app</a
+              >
+            </h3>
+            <p class="paragraph">
+              Check out the weather in your city.
+              <br />
+              Coded with React.js, CSS, API.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              <a
+                href="https://construction-co-page.netlify.app"
+                target="_blank"
+                title="landing page"
+                class="link"
+                >landing page</a
+              >
+            </h3>
+            <p class="paragraph">
+              See everything about Construction Co.. Landing page for a company.
+              <br />
+              Coded with HTML, CSS, Bootstrap.
+            </p>
+          </div>
+          <div class="project">
+            <h3>
+              <a
+                href="https://friendsquizgame.netlify.app"
+                target="_blank"
+                title="quiz game"
+                class="link"
+                >quiz game</a
+              >
+            </h3>
+            <p class="paragraph">
+              Let's see if you know everything about Friends TV Show. A quiz
+              game for the fans.
+              <br />
+              Coded with React.js, CSS.
+            </p>
+          </div>
+        </div>
+        <div class="github">
+          <i class="fa-brands fa-github"></i>
+          <span
+            ><a
+              href="https://github.com/majapiszczek"
               target="_blank"
-              title="linkedin Maja Piszczek"
-            >
-              majapiszczek</a
-            >
-          </li>
-          <li><i class="fa-solid fa-phone"></i> +48 509 439 001</li>
-        </ul>
+              title="Github Maja Piszczek"
+              class="link"
+              >My code is open-sourced on GitHub!</a
+            ></span
+          >
+        </div>
       </div>
     </section>
-    <footer>
-      <p>Designed and coded by Maja Piszczek.</p>
+
+    <!-- CONTACT -->
+
+    <section class="contact light" id="contact">
+      <div>
+        <div class="contact-info">
+          <h2 class="title">contact</h2>
+          <h3>Let's get in touch!</h3>
+        </div>
+        <div>
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a
+                href="mailto:piszczekmaja33@gamil.com"
+                title="email Maja Piszczek"
+                class="link"
+                >piszczekmaja33@gmail.com</a
+              >
+            </li>
+
+            <li class="contact-list-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/majapiszczek/"
+                target="_blank"
+                title="linkedin Maja Piszczek"
+                class="link"
+              >
+                majapiszczek</a
+              >
+            </li>
+            <li class="contact-list-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:509439001" title="call Maja Piszczek" class="link"
+                >+48 509 439 001</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <p class="paragraph">Designed and coded by Maja Piszczek.</p>
     </footer>
   </body>
 </html>
